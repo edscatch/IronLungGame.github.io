@@ -1,4 +1,10 @@
 body {
+    text-align: center;
     background-color: aquamarine;
+}
+head {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
 
