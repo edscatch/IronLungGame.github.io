@@ -9,9 +9,18 @@
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
 }
+h1{
+    color: whitesmoke;
+}
 body{
+    color: whitesmoke;
+    font-family: Helvetica;
     text-align: center;
     background-image: url(../images/challenge1background.jpg);
     background-repeat: no-repeat;
     background-size: fill;
+}
+.challengeImage{
+    
+    size: 20em;
 }
