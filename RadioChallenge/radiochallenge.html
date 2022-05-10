@@ -2,19 +2,30 @@
 <html lang="en">
     <link rel="stylesheet" href="challange-1-Style.css">
     <head>
+        <script>
+            function getAnswer() {
+                let x = document.forms["answerForm"]["userAnswer"].value;
+                
+            }
+        </script>
         <title>Stranded</title>
-        <h1>
+        <h1 div="title" >
             Stranded
         </h1>
     </head>
     <body>
-        <p>
+        <p div="attempt">
             You decide to try and use the radio to attempt to contact the rest of your fleet but you soon encounter an issue.
         </p>
         <br>
-        <p>
-            It appears that on your descent the radio has stopped working.
+        <p div="stopped" >
+            It appears that on your descent the radio has stopped working. Luckily it seems to only be a faulty wire and after reconnecting it the display boots up.
         </p>
-        <img src="images/radiochallenge.png" alt="">
+        <img id="challengeImage" src="../images/radiochallenge.png" alt="">
+        <form name="answerForm" action="" onsubmit="return getAnswer()" method="post">
+            <input type="number" name="userAnswer" required>
+            <input type="submit" value="Sumbit">
+        </form>
+        <a href="#" id="nextPage"></a>
     </body>
 </html>
