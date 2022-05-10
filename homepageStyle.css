@@ -5,13 +5,8 @@ body {
     background-size: cover;
 }
 head {
-<<<<<<< HEAD
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-=======
     text-align: center;
     font-family: Helvetica;
->>>>>>> 045cd4e2efbcd2e84658e80021c1b1fc8d9509f7
     
 }
 
