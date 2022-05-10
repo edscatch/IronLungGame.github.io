@@ -30,6 +30,7 @@
                 if (x == 10) {
                     document.getElementById("nextPage").href = link;
                     document.getElementById("nextPage").innerHTML = ("Next page");
+                    document.getElementById("nextPage").className = ("nextPageLink");
                     return false;
                 } else {
                     return false;
@@ -37,6 +38,6 @@
 
             }
         </script>
-        <a href="#" id="nextPage"></a>
+        <a href="#" class="nextPage" id="nextPage"></a>
     </body>
 </html>
