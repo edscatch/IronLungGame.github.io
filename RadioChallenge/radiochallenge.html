@@ -2,12 +2,6 @@
 <html lang="en">
     <link rel="stylesheet" href="challange-1-Style.css">
     <head>
-        <script>
-            function getAnswer() {
-                let x = document.forms["answerForm"]["userAnswer"].value;
-                
-            }
-        </script>
         <title>Stranded</title>
         <h1 div="title" >
             Stranded
@@ -22,10 +16,27 @@
             It appears that on your descent the radio has stopped working. Luckily it seems to only be a faulty wire and after reconnecting it the display boots up.
         </p>
         <img id="challengeImage" src="../images/radiochallenge.png" alt="">
-        <form name="answerForm" action="" onsubmit="return getAnswer()" method="post">
-            <input type="number" name="userAnswer" required>
+        <p div="yourAnswer">
+            You enter 4 and 20, what Is the final output of the program?
+        </p>
+        <form name="answerForm" action="#" onsubmit="return getAnswer()" method="post">
+            <input type="number" name="userAnswer">
             <input type="submit" value="Sumbit">
         </form>
+        <script>
+            function getAnswer() {
+                let x = document.forms["answerForm"]["userAnswer"].value;
+                let link = "google.com/"
+                if (x == 10) {
+                    document.getElementById("nextPage").href = link;
+                    document.getElementById("nextPage").innerHTML = ("Next page");
+                    return false;
+                } else {
+                    return false;
+                }
+
+            }
+        </script>
         <a href="#" id="nextPage"></a>
     </body>
 </html>
