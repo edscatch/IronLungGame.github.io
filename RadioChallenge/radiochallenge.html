@@ -19,7 +19,7 @@
         <p div="yourAnswer">
             You enter 4 and 20, what Is the final output of the program?
         </p>
-        <form id="inputForm" name="answerForm" action="#" onsubmit="return getAnswer()" method="post">
+        <form id="inputForm" name="answerForm" action="../YouDied/wrongAnswer.html" onsubmit="return getAnswer()" method="post">
             <input type="number" name="userAnswer">
             <input type="submit" value="Sumbit">
         </form>
@@ -31,8 +31,10 @@
                     document.getElementById("nextPage").href = link;
                     document.getElementById("nextPage").innerHTML = ("Next page");
                     document.getElementById("nextPage").className = ("nextPageLink");
-                } 
-                return false;
+                    return false;
+                } else {
+                    return true;
+                }
             }
         </script>
         <a href="#" class="nextPage" id="nextPage"></a>
