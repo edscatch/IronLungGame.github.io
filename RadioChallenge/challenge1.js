@@ -8,6 +8,7 @@ function getAnswer() {
         document.getElementById("nextPage").className = ("nextPageLink");
         document.getElementById("inputForm").hidden = true;
         document.getElementById("userAnswer").hidden = true;
+        document.getElementById("challengeIMG").hidden = true;
         document.getElementById("correctText").hidden = false;
         return false;
     //} else if (x > 0){
