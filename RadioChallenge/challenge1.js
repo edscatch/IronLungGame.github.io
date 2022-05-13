@@ -11,10 +11,6 @@ function getAnswer() {
         document.getElementById("challengeIMG").hidden = true;
         document.getElementById("correctText").hidden = false;
         return false;
-    //} else if (x > 0){
-       //document.getElementById("hiddentext").innerHTML = ("Please enter a number above 0");
-       //console.log("i hope this doesn't fucking trigger");
-       // return false;
     } else {
             return true;
     }
