@@ -1,16 +1,16 @@
 console.log("all hail sebastian our overlord")
 function getAnswer() {
     var x = document.getElementById("userChoice").value;
-    var correctLink = "#";
+    var correctLink = "../../DoorChallenge/Challenge2.html"
     var wrongLink = "../../YouDied/wrongAnswer.html"
     console.log(x);
     if (x == "Error"){
         console.log("correct answer");
         document.getElementById("inputForm").action = ("hideText()");
-        console.log("if anyone checks this know that this one section took way too long")
+        console.log("if anyone checks this know that this one section took way too long");
         return false;
-    } else if (x == "select") {
-        console.log("enter an ansewr dimwit");
+    } else if (x == "Select an answer.") {
+        console.log("enter an answer dimwit");
     } else {
         console.log("wrong answer");
         document.getElementById("submitButton").onclick = wrongLink;

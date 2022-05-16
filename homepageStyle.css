@@ -13,13 +13,12 @@ body {
     background-size: cover;
 }
 .Story 
-{
-    text-align: left;
+{   
     font-family: Helvetica;
     text-align: center;
 }
 .Image
-{
+{   
     background-color:  black;
     padding: 3px 3px;
     width: 25%
