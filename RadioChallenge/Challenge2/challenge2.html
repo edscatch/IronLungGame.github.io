@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="challange-2-Style.css">
+    <script src="challenge2.js"></script>
     <head>
         <h1>
             <i>Static</i>
@@ -27,8 +28,8 @@
         <p id="promptText">
             What is the output of the program?
         </p> 
-        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html" onsubmit="return getAnswer()">
-            <select id="userChoice" name="userOption">
+        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html">
+            <select id="userChoice" name="userOption" onchange="getAnswer()">
                 <option value="select">Select an answer.</option>
                 <option value="17">17</option>
                 <option value="Error">Error</option>
@@ -36,6 +37,7 @@
                 <option value="none">none of the above</option>
             </select>
             <input type="submit" value="submit">
+            <p id="wronganswerfuckface" hidden>Please select an answer.</p>
         </form>
         <p id="correctText" hidden>
             <b>You input an answer and hope for the best, after a short time the submarine is suddenlly filled with the sound of static. 
