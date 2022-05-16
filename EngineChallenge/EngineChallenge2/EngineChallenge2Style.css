@@ -10,11 +10,11 @@ body
     color: white;
     font-family: Helvetica;
     text-align: center;
-    background-image: url(../../Images/EngineBackground2.jpg);
+    background-image: url(../../images/EngineBackground2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.text1
+.text
 {
     text-shadow: 0px 0px 2px black;
 }
