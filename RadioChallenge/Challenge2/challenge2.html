@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="challange-2-Style.css">
+    <script src="challenge2.js"></script>
     <head>
         <h1>
             <i>Static</i>
@@ -27,7 +28,7 @@
         <p id="promptText">
             What is the output of the program?
         </p> 
-        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html" onsubmit="return getAnswer()">
+        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html" onchange="return getAnswer()">
             <select id="userChoice" name="userOption">
                 <option value="select">Select an answer.</option>
                 <option value="17">17</option>
@@ -38,8 +39,7 @@
             <input type="submit" value="submit">
         </form>
         <p id="correctText" hidden>
-            <b>You input an answer and hope for the best, after a short time the submarine is suddenlly filled with the sound of static. 
-            Relived you tune in to your fleets general long range frequency.</b>
+            <b>After you input your </b>
         </p>
         <br>
         <a href="#" class="nextPage" id="nextPage"></a>
