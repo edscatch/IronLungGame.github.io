@@ -1,0 +1,37 @@
+h1
+{
+    color: white;
+    font-size: 400%;
+}
+body
+{
+    font-size: x-large;
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    background-image: url(../images/EngineBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.answer1 {
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.answer2 {
+    background-color:  grey;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.answer3 {
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.repairEngineImage
+{
+    size-adjust: 50%;
+}

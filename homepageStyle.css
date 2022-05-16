@@ -1,20 +1,49 @@
+h1
+{
+    color: rgba(155, 9, 9, 0.816);
+    font-size: xx-large;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 0px 0px 4px black;
+}
 body {
     text-align: center;
     background-image: url(https://images-ext-2.discordapp.net/external/_IFkdI5b9I8i16Pu42zlasCRcEoEzmHIF0Q46F84Bms/https/gameranx.com/wp-content/uploads/2022/02/Elden-Ring-Screenshot-2022.02.25-15.17.22.71.png?width=1191&height=670);
     background-repeat: no-repeat;
     background-size: cover;
 }
-head {
-<<<<<<< HEAD
-<<<<<<< HEAD
+.Story 
+{
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
-    fo
-=======
-=======
->>>>>>> 10e6a9306353da692ed3fbf91aca2e206c72809b
-    text-align: center;
     font-family: Helvetica;
-    
+    text-align: center;
 }
+.RadioImage
+{
+    font-family: Helvetica;
+    background-color:  black;
+    padding: 3px 3px;
+}
+.EngineImage
+{
+    font-family: Helvetica;
+    background-color:  black;
+    padding: 3px 3px;
+}
+.Radio 
+{   
+    font-family: Helvetica;
+    background-color:  grey;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+.Engine {
+    font-family: Helvetica;
+    background-color:  grey;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
 
