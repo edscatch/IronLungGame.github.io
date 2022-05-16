@@ -17,10 +17,32 @@
             <p>
                 Scared now you start sorting through all frequency's untill... 
                 <br>
-                It seems to have locked you out again and you must complete the challange to continue.
             </p>
         </div>
-        <img src="../../Images/radioChallenge2.png" alt="">
+        <p id="promptText">
+            It seems to have locked you out again and you must complete the challange to continue.
+        </p>
+        <img id="challengeIMG" src="../../Images/radioChallenge2.png" alt="">
+        <br>
+        <p id="promptText">
+            What is the output of the program?
+        </p> 
+        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html" onsubmit="return getAnswer()">
+            <select id="userChoice" name="userOption">
+                <option value="select">Select an answer.</option>
+                <option value="17">17</option>
+                <option value="Error">Error</option>
+                <option value="no-output">no output</option>
+                <option value="none">none of the above</option>
+            </select>
+            <input type="submit" value="submit">
+        </form>
+        <p id="correctText" hidden>
+            <b>You input an answer and hope for the best, after a short time the submarine is suddenlly filled with the sound of static. 
+            Relived you tune in to your fleets general long range frequency.</b>
+        </p>
+        <br>
+        <a href="#" class="nextPage" id="nextPage"></a>
 
     </body>
 </html>
