@@ -1,17 +1,21 @@
 console.log("all hail sebastian our overlord")
 function getAnswer() {
-    var select = document.getElementById("userChoice");
-    var x = select.options[select.selectedIndex];
-    var link = "../../DoorChallenge/OpenDoors.html"
-    console.log("test")
+    var x = document.getElementById("userChoice").value;
+    var correctLink = "../../DoorChallenge/OpenDoors.html";
+    var wrongLink = "../../YouDied/wrongAnswer.html"
+    console.log(x);
     if (x == "Error"){
         console.log("correct answer")
-        document.getElementById("propmtText").hidden = true;
-        document.getElementById("nextPage").href = link;
-        document.getElementById("nextPage").innerHTML = ("Next page"); 
+        document.getElementById("promptText").hidden = true;
+        document.getElementById("challengeIMG").hidden = true;
+        document.getElementById("nextPage").href = correctLink;
+        document.getElementById("nextPage").innerHTML = ("You hope for the best"); 
+        document.getElementById("answerForm").hidden = true;
         return false;
     } else if (x == "select") {
-        document.getElementById("wronganswerfuckface").hidden = false;
-        return true;
+        console.log("enter an ansewr dimwit");
+    } else {
+        console.log("wrong answer");
+
     }
 }
