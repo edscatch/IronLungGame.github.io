@@ -2,19 +2,38 @@
 <html lang="en">
     <link rel="stylesheet" href="challange-1-Style.css">
     <head>
+        <script src="challenge1.js"></script>
         <title>Stranded</title>
-        <h1>
+        <h1 div="title" >
             Stranded
         </h1>
     </head>
     <body>
-        <p>
-            You decide to try and use the radio to attempt to contact the rest of your fleet but you soon encounter an issue.
+        <p div="attempt">
+            <b> You decide to try and use the radio to attempt to contact the rest of your fleet but you soon encounter an issue.
+            It appears that on your descent the radio has stopped working. 
+            Luckily it seems to only be a faulty wire and after reconnecting it the display boots up.
+            <br>
+            what you see seems to be a challange that you most solve if you wish to use the radio. </b>
+        </p>
+        <img class="challengeImage" id="challengeIMG" src="../images/radiochallenge.png" alt="">
+        <p id="userAnswer">
+            <b>You enter 4 and 20, what Is the final output of the program? </b>
+        </p>
+        <p id="hiddenText"></p>
+        <form id="inputForm" name="answerForm" action="../YouDied/wrongAnswer.html" onsubmit="return getAnswer()">
+            <input type="number" name="userAnswer" required placeholder="enter a number">
+            <input type="submit" value="Sumbit">
+        </form>
+        <p id="correctText" hidden>
+            <b>You input an answer and hope for the best, after a short time the submarine is suddenlly filled with the sound of static. 
+            Relived you tune in to your fleets general long range frequency.</b>
         </p>
         <br>
-        <p>
-            It appears that on your descent the radio has stopped working.
-        </p>
-        
+        <a href="#" class="nextPage" id="nextPage"></a>
+        <br>
+        <br>
+        <br>
+        <br>
     </body>
 </html>
