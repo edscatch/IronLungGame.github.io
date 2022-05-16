@@ -10,17 +10,13 @@ body
     color: white;
     font-family: Helvetica;
     text-align: center;
-    background-image: url(../../images/EngineBackground2.jpg);
+    background-image: url(../Images/DoorsBackground2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .text
 {
     font-family: Helvetica;
-    text-shadow: 0px 0px 2px black;
-}
-.text1
-{
     text-shadow: 0px 0px 2px black;
 }
 .answer {
@@ -30,7 +26,7 @@ body
     padding: 10px 20px;
     text-decoration: none;
 }
-.repairEngineImage2
+.OpenDoorsImage
 {
     size-adjust: 50%;
     padding: 3px 3px;

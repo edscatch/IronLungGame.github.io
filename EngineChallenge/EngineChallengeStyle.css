@@ -17,17 +17,21 @@ body
 .text
 {
     font-family: Helvetica;
-    font-size: 125%;
     text-shadow: 0px 0px 2px black;
 }
-.answer {
+.text1
+{
+    font-family: Helvetica;
+    text-shadow: 0px 0px 2px black; 
+}
+.answer 
+{
     font-family: Helvetica;
     background-color: rgba(222,225,230,255);
     color: black;
     padding: 10px 20px;
     text-decoration: none;
 }
-
 .repairEngineImage
 {
     size-adjust: 50%;
