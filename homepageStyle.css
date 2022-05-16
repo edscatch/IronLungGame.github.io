@@ -1,10 +1,10 @@
 h1
 {
     color: rgba(155, 9, 9, 0.816);
-    font-size: xx-large;
+    font-size: 400%;
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-shadow: 0px 0px 4px black;
+    text-shadow: 0px 0px 5px black;
 }
 body {
     text-align: center;
@@ -18,31 +18,27 @@ body {
     font-family: Helvetica;
     text-align: center;
 }
-.RadioImage
+.Image
 {
-    font-family: Helvetica;
     background-color:  black;
     padding: 3px 3px;
-}
-.EngineImage
-{
-    font-family: Helvetica;
-    background-color:  black;
-    padding: 3px 3px;
+    width: 25%
 }
 .Radio 
 {   
     font-family: Helvetica;
-    background-color:  grey;
-    color: white;
-    padding: 15px 25px;
+    background-color: rgba(222,225,230,255);
+    color: black;
+    padding: 10px 20px;
     text-decoration: none;
+    
 }
-.Engine {
+.Engine 
+{
     font-family: Helvetica;
-    background-color:  grey;
-    color: white;
-    padding: 15px 25px;
+    background-color: rgba(222,225,230,255);
+    color: black;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
