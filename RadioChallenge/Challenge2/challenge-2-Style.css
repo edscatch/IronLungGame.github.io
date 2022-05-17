@@ -22,7 +22,7 @@ body{
     text-align: center;
     background-image: url(../../images/radiobackground.jpg);
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: cover;
     text-shadow: 0px 0px 2px black;
 }
 .challengeImage{

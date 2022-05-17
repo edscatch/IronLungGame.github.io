@@ -29,7 +29,7 @@
         <p id="promptText">
             What is the output of the program?
         </p> 
-        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html" onchange="return getAnswer()">
+        <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html">
             <select id="userChoice" name="userOption">
                 <option value="select">Select an answer.</option>
                 <option value="17">17</option>
@@ -37,13 +37,15 @@
                 <option value="no-output">no output</option>
                 <option value="none">none of the above</option>
             </select>
-            <button id="submitButton" onclick="getAnswer()">Submit</button>
+            <button id="submitButton" onclick="return getAnswer()">Submit</button>
         </form>
         <p id="correctText" hidden>
-            <b>After you input your </b>
+            <b>After you input your answer the radio blows up. Disheartened you leave the front of the ship and go into the engine room.</b>
         </p>
         <br>
         <a href="#" class="nextPage" id="nextPage"></a>
+        
+        
 
     </body>
 </html>
