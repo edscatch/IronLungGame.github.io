@@ -4,12 +4,13 @@
     text-decoration: none;
     background-color: rgba(222,225,230,255);
     color: #333333;
-    padding: 2px 6px 2px 6px;
+    padding: 10px 20px 10px 20px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
 }
+beginingText
 h1{
     color: white;
     font-size: 250%;
