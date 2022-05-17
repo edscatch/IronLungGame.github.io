@@ -21,10 +21,11 @@ body{
     color: white;
     font-family: Helvetica;
     text-align: center;
-    background-image: url(../../images/radiobackground.jpg);
-    background-repeat: no-repeat;
+    background: url(../../images/radiobackground.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    text-shadow: 0px 0px 2px black;
 }
 .challengeImage{
     size-adjust: 50%;
