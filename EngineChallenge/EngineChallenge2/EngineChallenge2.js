@@ -3,6 +3,7 @@ function getAnswer() {
     var correctLink = "../../DoorChallenge/OpenDoors.html"
     console.log(x);
     if (x == "3"){
+        document.getElementById("chon").hidden = false;
         document.getElementById("RepairEnginesImg2").hidden = true;
         document.getElementById("inputForm").hidden = true;
         document.getElementById("nextPage").href = correctLink;
