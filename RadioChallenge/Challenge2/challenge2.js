@@ -6,7 +6,6 @@ function getAnswer() {
     console.log(x);
     if (x == "Error"){
         console.log("correct answer");
-        document.getElementById("inputForm").action = ("return hideText()");
         console.log("if anyone checks this know that this one section took way too long");
         document.getElementById("promptText").hidden = true;
         document.getElementById("promptText2").hidden = true;
@@ -18,9 +17,8 @@ function getAnswer() {
         document.getElementById("nextPage").innerHTML = ("Next page"); 
         document.getElementById("nextPage").className = ("nextPageLink");
         return false;
-    } else if (x == "Select an answer.") {
+    } else if (x == "select") {
         console.log("enter an answer dimwit");
-        document.getElementById("submitButton").onclick = "challenge2.html"
         return false;
     } else {
         console.log("wrong answer");
