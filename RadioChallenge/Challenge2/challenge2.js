@@ -2,7 +2,6 @@ console.log("all hail sebastian our overlord")
 function getAnswer() {
     var x = document.getElementById("userChoice").value;
     var correctLink = "../../EngineChallenge/EngineChallenge.html"
-    var wrongLink = "../../YouDied/wrongAnswer.html"
     console.log(x);
     if (x == "Error"){
         console.log("correct answer");
@@ -22,7 +21,6 @@ function getAnswer() {
         return false;
     } else {
         console.log("wrong answer");
-        document.getElementById("submitButton").onclick = wrongLink;
         return true;
     }
 }
