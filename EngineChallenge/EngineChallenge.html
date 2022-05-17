@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="Stylesheet" href= "EngineChallengeStyle.css">
+    <script src="EngineChallenge.js"></script>
 <head>
 <title>Engine Failure</title>
 <h1 div="title">
@@ -13,13 +14,20 @@
     and are ready to test it. The initiation sequence begins, however, you must solve the launch protocol
      to proceed, otherwise, the engine may explode.
     </pre>
-    <br class="">
     <img class="repairEngineImage" id="RepairEnginesImg" src="../Images/EngineChallenge.png" alt="Engine Challenge" >
     <p id="userAnswer">
         <p class=  "text1"> What is the output?</p>
     </p>
-	<a class="answer" href="../YouDied/wrongAnswer.html">1080p, 64gb</a>
-    <a class="answer" href="../EngineChallenge/EngineChallenge2/EngineChallenge2.html">Null</a>
-    <a class="answer" href="../YouDied/wrongAnswer.html">4k,64gb</a>
+    <form id="inputForm" name="answerForm" action="../YouDied/wrongAnswer.html">
+        <select id="userChoice" name="userOption">
+            <option value ="0">Select an answer.</option>
+            <option value ="1">1080p, 64gb</option>
+            <option value ="2">Null</option>
+            <option value ="3">4k,64gb</option>
+        </select>
+        <button id="submitButton" onclick="return getAnswer()">Submit</button>
+    </form>
+    <a href="#" class="nextPage" id="nextPage"></a>
 </body>
+
 </html>

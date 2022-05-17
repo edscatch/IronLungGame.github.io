@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="EngineChallenge2Style.css">
+    <script src="EngineChallenge2.js"></script>
 <head>
 <title>fight</title>
 <h1>
@@ -16,9 +17,16 @@
     <p id="userAnswer2">
         <p class="text1"> What type of algorithm is shown? </p>
     </p> 
-    <a class="answer" href="../../YouDied/wrongAnswer.html">A binary search</a>
-    <a class="answer" href="../../YouDied/wrongAnswer.html">An insertion sort</a>
-    <a class="answer" href="../../DoorChallenge/OpenDoors.html">A selection sort</a>
-    <a class="answer" href="../../YouDied/wrongAnswer.html">A linear search</a>
+    <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html">
+        <select id="userChoice" name="userOption">
+            <option value ="0">Select an answer.</option>
+            <option value ="1">A binary search</option>
+            <option value ="2">An insertion sort</option>
+            <option value ="3">A selection sort</option>
+            <option value ="4">A linear search</option>
+        </select>
+        <button id="submitButton" onclick="return getAnswer()">Submit</button>
+    </form>
+    <a href="#" class="nextPage" id="nextPage"></a>
 </body>
 </html>
