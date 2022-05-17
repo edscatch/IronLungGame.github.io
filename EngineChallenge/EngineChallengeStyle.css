@@ -22,8 +22,10 @@ body
     color: white;
     font-family: Helvetica;
     text-align: center;
-    background-image: url(../images/EngineBackground.jpg);
-    background-repeat: no-repeat;
+    background: url(../images/EngineBackground.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .text
