@@ -4,29 +4,30 @@
     <script src="challenge2.js"></script>
     <head>
         <title>Static</title>
-        <h1 id="firsttext">
+        <h1 id="firsttext" class="firstText">
             <i>Static</i>
         </h1>
     </head>
     <body>
-        <div class="beginingText">
-            <p>
+        <div class="promtText">
+            <p id="pText1">
                 You start to get worried, you shouldn't be out of range. A bit paniced you try the emergency frequency... 
-                <br>
+                
             </p>
             <h1><i>Static</i></h1>
-            <br>
-            <p>
+               
+            <p id="pText2">
                 Scared now you start sorting through all frequency's untill... 
-                <br>
             </p>
         </div>
-        <p id="promptText2">
+        <p id="lText" class="promtText2">
             It seems to have locked you out again and you must complete the challange to continue.
+            
         </p>
+        <br>
         <img id="challengeIMG" src="../../Images/radioChallenge2.png" alt="">
         <br>
-        <p id="promptText">
+        <p id="outputText" class="promtText3">
             What is the output of the program?
         </p> 
         <form id="inputForm" name="answerForm" action="../../YouDied/wrongAnswer.html">
@@ -39,7 +40,7 @@
             </select>
             <button id="submitButton" onclick="return getAnswer()">Submit</button>
         </form>
-        <p id="correctText" hidden>
+        <p id="correctText" class="correctText" hidden>
             <b>After you input your answer the radio blows up. Disheartened you leave the front of the ship and go into the engine room.</b>
         </p>
         <br>

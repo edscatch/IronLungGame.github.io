@@ -18,7 +18,7 @@ h1{
 }
 body{
     font-size: x-large;
-    color: white;
+    color: rgb(11, 11, 11);
     font-family: Helvetica;
     text-align: center;
     background: url(../../images/radiobackground.jpg) no-repeat center center fixed;
@@ -39,3 +39,34 @@ input[type=number]{
 input[type=submit]{
     padding: 1em;
 }
+#pText1{
+    background-color: white;
+    width: 65%;
+    border: 15px;
+    padding: 30px;
+    margin: auto;
+}
+#pText2{
+    background-color: white;
+    width: 65%;
+    border: 15px;
+    padding: 10px;
+    margin: auto;
+}
+#outputText{
+    background-color: white;
+    width: 40%;
+    border: 15px;
+    padding: 10px;
+    margin: auto;
+}
+#lText{
+    background-color: white;
+    width: 65%;
+    border: 15px;
+    padding: 10px;
+    margin: auto;
+}
+
+
+

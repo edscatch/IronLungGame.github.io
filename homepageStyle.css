@@ -13,11 +13,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
 }
 .Story 
 {   
     font-family: Helvetica;
     text-align: center;
+    color: aliceblue;
 }
 .Image
 {   

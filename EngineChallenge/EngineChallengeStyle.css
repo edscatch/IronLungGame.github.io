@@ -46,3 +46,10 @@ body
 input[type=submit]{
     padding: 1em;
 }
+.text{
+    background-color: rgb(5, 5, 5);
+    width: 75%;
+    border: 15px;
+    padding: 10px;
+    margin: auto;
+}
