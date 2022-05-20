@@ -1,4 +1,4 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class OpenDoors {
     public static void main (String[] args){
         Scanner scnr = new Scanner(System.in);
