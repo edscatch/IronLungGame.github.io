@@ -20,7 +20,7 @@ body{
     color: black;
     font-family: Helvetica;
     text-align: center;
-    background: url(../images/radiobackground.jpg) no-repeat center center fixed;
+    background: url(../Images/radiobackground.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

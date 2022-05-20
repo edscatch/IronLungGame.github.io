@@ -6,6 +6,7 @@ function getAnswer() {
     if (x == "2"){
         document.getElementById("RepairEnginesImg").hidden = true;
         document.getElementById("inputForm").hidden = true;
+        document.getElementsByClassName("text1").hidden = true;
         document.getElementById("nextPage").href = correctLink;
         document.getElementById("nextPage").innerHTML = ("Next page"); 
         document.getElementById("nextPage").className = ("nextPageLink");
