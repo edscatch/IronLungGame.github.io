@@ -17,7 +17,7 @@ h1{
 }
 body{
     font-size: x-large;
-    color: white;
+    color: black;
     font-family: Helvetica;
     text-align: center;
     background: url(../images/radiobackground.jpg) no-repeat center center fixed;
@@ -26,9 +26,19 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
-.text
-{
-    text-shadow: 0px 0px 2px black;
+.text{
+    background-color: rgba(188,189,173,255);
+    width: 65%;
+    border: 15px;
+    padding: 30px;
+    margin: auto;
+}
+.text2{
+    background-color: rgba(188,189,173,255);
+    width: 35%;
+    border: 15px;
+    padding: 30px;
+    margin: auto;
 }
 .challengeImage{
     size-adjust: 50%;
