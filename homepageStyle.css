@@ -8,8 +8,10 @@ h1
 }
 body {
     text-align: center;
-    background-image: url(https://images-ext-2.discordapp.net/external/_IFkdI5b9I8i16Pu42zlasCRcEoEzmHIF0Q46F84Bms/https/gameranx.com/wp-content/uploads/2022/02/Elden-Ring-Screenshot-2022.02.25-15.17.22.71.png?width=1191&height=670);
-    background-repeat: no-repeat;
+    background: url(Images/homepage-background.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 .Story 
