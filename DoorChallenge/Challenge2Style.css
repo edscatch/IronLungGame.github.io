@@ -33,3 +33,11 @@ body
     size-adjust: 50%;
     padding: 3px 3px;
 }
+
+#answerOptions{
+    font-family: Helvetica;
+    background-color: rgba(222,225,230,255);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
