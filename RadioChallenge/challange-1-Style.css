@@ -26,19 +26,8 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
-.text{
-    background-color: rgba(188,189,173,255);
-    width: 65%;
-    border: 15px;
-    padding: 30px;
-    margin: auto;
-}
-.text2{
-    background-color: rgba(188,189,173,255);
-    width: 35%;
-    border: 15px;
-    padding: 30px;
-    margin: auto;
+.text span{
+    background-color: white;
 }
 .challengeImage{
     size-adjust: 50%;

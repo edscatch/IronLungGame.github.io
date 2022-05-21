@@ -19,7 +19,7 @@ h1
 body
 {
     font-size: x-large;
-    color: white;
+    color: black;
     font-family: Helvetica;
     text-align: center;
     background: url(../Images/EngineBackground.jpg) no-repeat center center fixed;
@@ -31,12 +31,12 @@ body
 .text
 {
     font-family: Helvetica;
-    text-shadow: 0px 0px 2px black;
+    
 }
 .text1
 {
     font-family: Helvetica;
-    text-shadow: 0px 0px 2px black; 
+     
 }
 .repairEngineImage
 {
@@ -46,10 +46,6 @@ body
 input[type=submit]{
     padding: 1em;
 }
-.text{
-    background-color: rgb(5, 5, 5);
-    width: 75%;
-    border: 15px;
-    padding: 10px;
-    margin: auto;
+span{
+    background-color: white;
 }

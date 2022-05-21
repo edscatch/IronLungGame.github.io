@@ -10,7 +10,6 @@
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
 }
-beginingText
 h1{
     color: white;
     font-size: 250%;
@@ -39,34 +38,6 @@ input[type=number]{
 input[type=submit]{
     padding: 1em;
 }
-#pText1{
+span{
     background-color: white;
-    width: 65%;
-    border: 15px;
-    padding: 30px;
-    margin: auto;
 }
-#pText2{
-    background-color: white;
-    width: 65%;
-    border: 15px;
-    padding: 10px;
-    margin: auto;
-}
-#outputText{
-    background-color: white;
-    width: 40%;
-    border: 15px;
-    padding: 10px;
-    margin: auto;
-}
-#lText{
-    background-color: white;
-    width: 65%;
-    border: 15px;
-    padding: 10px;
-    margin: auto;
-}
-
-
-
