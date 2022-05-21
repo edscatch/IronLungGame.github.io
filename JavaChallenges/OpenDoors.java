@@ -7,7 +7,7 @@ public class OpenDoors {
         userNumber = scnr.nextInt();
         
         if(userNumber >= 1 && userNumber <= 3){
-            System.out.println("Your number is small")
+            System.out.println("Your number is small");
         }
         else if(userNumber >= 4 && userNumber <=8){
             System.out.println("Your number is kind small");

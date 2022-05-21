@@ -17,3 +17,4 @@ public class RadioChallenge {
         scnr.close();
     }
 }
+// Answer is 10
